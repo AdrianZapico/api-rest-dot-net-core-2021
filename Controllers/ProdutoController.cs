@@ -24,17 +24,17 @@ namespace Apitest.Controllers
 
                 Produto produto1 = new Produto();
                 produto1.ProdutoId = 1;
-                produto1.NomeProduto = "Consolo Do KID";
-                produto1.Descricao = "Pênis de borracha,19 cm largura,35 altura";
+                produto1.NomeProduto = "Caneca de café";
+                produto1.Descricao = "Copo Azul,de VIDRO";
                 produto1.Preco = 15.2;
 
 
                 
                 Produto produto2 = new Produto();
                 produto2.ProdutoId = 2;
-                produto2.NomeProduto = "Plug dos Sonhos obscuros";
-                produto2.Descricao = "Plug anal ,25 cm largura,17 altura,formato cônico";
-                produto2.Preco = 25.2;
+                produto2.NomeProduto = "Contra-Baixo Yamaha";
+                produto2.Descricao = "Contra-baixo preto,mogmo,4 cordas";
+                produto2.Preco = 875.2;
 
                 Post(produto1);
                 Post(produto2);
