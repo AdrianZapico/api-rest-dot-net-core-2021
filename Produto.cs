@@ -11,6 +11,7 @@ namespace Apitest
         public String NomeProduto { get; set; }
         public String Descricao { get; set; }
         public Double Preco  { get; set; }
+        public DateTime DataProduto { get; set; }
 
 
     }
